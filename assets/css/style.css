@@ -242,26 +242,25 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .list-social-media {
     padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: auto auto auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
     /* border: 1px solid #000; */
     /* margin: 0 auto; */
 }
 
-.list-social-media li {
-    display: inline;
-    margin: 2rem;
-    list-style-type: none;
-}
-
 .list-social-media a {
+    color: blue;
     text-decoration: none;
     font-size: 20pt;
+    margin: 0.5rem 0.5rem;
 }
 
 @media screen and (max-width: 770px) {
